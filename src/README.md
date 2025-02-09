@@ -1,9 +1,5 @@
 ```markdown
-# Pac-Man Multiplayer (Semester Project)
-
-![Pac-Man Screenshot](screenshot.png) <!-- Add a screenshot if available -->
-
-A networked Pac-Man game with a Swing GUI, developed as a semester project for "Fundamentals of Information Systems Development".
+# Pac-Man Multiplayer 
 
 ## Features
 - 🕹️ Classic Pac-Man gameplay with multiplayer support
@@ -11,10 +7,6 @@ A networked Pac-Man game with a Swing GUI, developed as a semester project for "
 - 🎨 Custom GUI with Swing and custom rendering
 - 🔄 Real-time synchronization of game states
 - 🚦 Multi-threaded network handling
-
-## Requirements
-- Java 11+
-- Maven (for building)
 
 ## Project Structure
 ```
@@ -29,28 +21,6 @@ project/
 │   └── resources/        # Game assets
 └── README.md
 ```
-
-## Installation & Running
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pacman-multiplayer.git
-   cd pacman-multiplayer
-   ```
-
-2. Build with Maven:
-   ```bash
-   mvn clean package
-   ```
-
-3. Start the server:
-   ```bash
-   java -cp target/classes app.ServerApp
-   ```
-
-4. Start client(s) in separate terminals:
-   ```bash
-   java -cp target/classes app.App
-   ```
 
 ## Game Protocol
 The custom protocol supports 4 message types:
